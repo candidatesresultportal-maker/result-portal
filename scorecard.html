@@ -35,14 +35,12 @@ body{
 }
 
 .download-btn{
-
     background:#0d6efd;
     color:#fff;
     text-decoration:none;
     padding:10px 18px;
     border-radius:5px;
     font-weight:bold;
-
 }
 
 .download-btn:hover{
@@ -50,20 +48,16 @@ body{
 }
 
 .container{
-
     width:100%;
     text-align:center;
     padding:20px;
-
 }
 
 .container img{
-
     width:100%;
     max-width:900px;
     border:1px solid #ccc;
     box-shadow:0 0 10px rgba(0,0,0,.25);
-
 }
 
 </style>
@@ -77,7 +71,7 @@ body{
 <h2>NEET UG 2026 Score Card</h2>
 
 <a
-href="images/scorecard.jpg"
+href="./scorecard.jpg"
 download="NEET-UG-Scorecard.jpg"
 class="download-btn">
 
@@ -90,17 +84,15 @@ Download Scorecard
 <div class="container">
 
 <img
-src="images/scorecard.jpg"
+src="./scorecard.jpg"
 alt="Scorecard">
 
 </div>
 
 <script>
 
-if(sessionStorage.getItem("portalLoggedIn")!="true"){
-
-    window.location.href="index.html";
-
+if(sessionStorage.getItem("portalLoggedIn") !== "true"){
+    window.location.href = "index.html";
 }
 
 </script>
