@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>NEET UG 2026 - Score Card</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="main-header">
+
+        <!-- LEFT SIDE -->
+
+        <div class="header-left">
+
+            <img
+                src="images/logo1.png"
+                alt="Logo One"
+                class="logo-one"
+            >
+
+            <div class="department-text">
+
+                <h2>
+                    Department of Higher Education
+                </h2>
+
+                <p>
+                    Ministry of Education
+                </p>
+
+                <p>
+                    Government of India
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CENTER SIDE -->
+
+        <div class="header-center">
+
+            <h1>
+                NATIONAL ELIGIBILITY CUM ENTRANCE TEST
+            </h1>
+
+            <h2>
+                (UG) - 2026
+            </h2>
+
+            <p>
+                Score Card
+            </p>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+
+        <div class="header-right">
+
+            <img
+                src="images/logo2.png"
+                alt="Logo Two"
+                class="logo-two"
+            >
+
+            <img
+                src="images/logo3.png"
+                alt="Logo Three"
+                class="logo-three"
+            >
+
+        </div>
+
+    </header>
+
+
+    <!-- BLUE LINE -->
+
+    <div class="header-line"></div>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main class="main-content">
+
+        <section class="login-card">
+
+            <!-- LOGIN CARD HEADER -->
+
+            <div class="login-card-header">
+
+                <span class="lock-icon">
+                    🔒
+                </span>
+
+                <h2>
+                    View Result
+                </h2>
+
+            </div>
+
+
+            <!-- LOGIN FORM -->
+
+            <form
+                id="loginForm"
+                autocomplete="off"
+            >
+
+                <!-- MESSAGE -->
+
+                <div
+                    id="messageBox"
+                    class="message-box"
+                ></div>
+
+
+                <!-- APPLICATION NUMBER -->
+
+                <div class="form-row">
+
+                    <label for="applicationNumber">
+                        Application Number :
+                    </label>
+
+                    <input
+                        type="text"
+                        id="applicationNumber"
+                        placeholder="Enter Application Number"
+                        maxlength="20"
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+                <!-- PASSWORD -->
+
+                <div class="form-row">
+
+                    <label for="password">
+                        Password :
+                    </label>
+
+                    <div class="password-box">
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter Password"
+                            maxlength="40"
+                            autocomplete="off"
+                        >
+
+                        <button
+                            type="button"
+                            id="togglePassword"
+                            class="show-password-button"
+                        >
+                            Show
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CAPTCHA INPUT -->
+
+                <div class="form-row">
+
+                    <label for="captchaInput">
+                        Enter CAPTCHA
+                        <span>
+                            (case sensitive)
+                        </span>
+                        :
+                    </label>
+
+                    <input
+                        type="text"
+                        id="captchaInput"
+                        placeholder="Enter CAPTCHA"
+                        maxlength="6"
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+                <!-- CAPTCHA DISPLAY -->
+
+                <div class="form-row captcha-form-row">
+
+                    <label>
+                        CAPTCHA :
+                    </label>
+
+                    <div class="captcha-controls">
+
+                        <div
+                            id="captchaDisplay"
+                            class="captcha-display"
+                        >
+                            BWGXKJ
+                        </div>
+
+                        <button
+                            type="button"
+                            id="refreshCaptcha"
+                            class="refresh-button"
+                            title="Refresh CAPTCHA"
+                        >
+                            ↻
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOGIN BUTTON -->
+
+                <div class="login-button-row">
+
+                    <button
+                        type="submit"
+                        class="login-button"
+                    >
+                        LOGIN
+                    </button>
+
+                </div>
+
+
+                <!-- FORGOT PASSWORD -->
+
+                <div class="forgot-password-row">
+
+                    <a
+                        href="#"
+                        id="forgotPassword"
+                    >
+                        Forgot Password ?
+                    </a>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="main-footer">
+
+        <p>
+            This site is designed and hosted by NIC PEP Division.
+        </p>
+
+        <p>
+            The contents are provided by NTA.
+        </p>
+
+        <p>
+            For any further information, please contact NTA.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
